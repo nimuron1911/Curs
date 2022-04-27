@@ -1,0 +1,123 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Curier New','Courier','monospace';
+    
+}
+
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Curier New','Courier','monospace';
+    background-color: rgb(10, 10, 27);
+}
+a  {
+    text-decoration: none;
+    border-style: dashed;
+    color: black;
+}
+#Site{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40xp;
+    border-bottom: 2px solid; rgba(0, 0 , 0, 0.05);
+}
+
+.Site-heading{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column-reverse;
+    font-size: 70px;
+                            
+}
+
+.Site-heading span{
+    color:rgb(240, 136, 0);
+
+}
+.Site-heading h5{
+    font-size: 2rem;
+    color: red;
+    font-weight: 300px;
+}
+
+.Site-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.Site-box{
+    width: 500px;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    background-color: rgb(165, 100, 1);
+
+}
+
+.Site-img img{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    object-fit:cover;
+    object-position:center;
+}
+.Site-text{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+.Site-text span{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+}
+.Site-text p {
+    color: #000000;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+  }
+  
+  .Site-text a {
+    color: #0f0f0f;
+  }
+  
+  .blog-text a:hover {
+    color: rgb(27, 27, 238);
+    transition: all ease 0.3s;
+  }
+  
+  .Site-button {
+    margin: 0px 0px 10px 10px;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #ffffff;
+  }
+  
+  .Site-button:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+  }
+  
+  .Site-button:active {
+    position: relative;
+    top: 1px;
+  }
