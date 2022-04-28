@@ -17,7 +17,7 @@ a  {
     border-style: dashed;
     color: black;
 }
-#Site{
+#site{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -26,7 +26,7 @@ a  {
     border-bottom: 2px solid; rgba(0, 0 , 0, 0.05);
 }
 
-.Site-heading{
+.site-heading{
     display:flex;
     justify-content: center;
     align-items: baseline;
@@ -35,17 +35,17 @@ a  {
                             
 }
 
-.Site-heading span{
+.site-heading span{
     color:rgb(240, 136, 0);
 
 }
-.Site-heading h5{
+.site-heading h5{
     font-size: 2rem;
     color: red;
     font-weight: 300px;
 }
 
-.Site-container{
+.site-container{
     display: flex;
     justify-content:center;
     align-items:center;
@@ -53,7 +53,7 @@ a  {
     flex-wrap: wrap;
 }
 
-.Site-box{
+.site-box{
     width: 500px;
     border: 1px solid #ffffff;
     margin: 10px;
@@ -61,26 +61,26 @@ a  {
 
 }
 
-.Site-img img{
+.site-img img{
     width: 100%;
     height: auto;
     padding: auto;
     object-fit:cover;
     object-position:center;
 }
-.Site-text{
+.site-text{
     padding: 15px;
     display: flex;
     flex-direction: column;
     min-height: 100px;
 }
-.Site-text span{
+.site-text span{
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     display:flex;
     justify-content: center;
 }
-.Site-text p {
+.site-text p {
     color: #000000;
     font-size: 0.9rem;
     overflow: hidden;
@@ -88,7 +88,7 @@ a  {
     margin: 20px 0px;
   }
   
-  .Site-text a {
+  .site-text a {
     color: #0f0f0f;
   }
   
@@ -97,7 +97,7 @@ a  {
     transition: all ease 0.3s;
   }
   
-  .Site-button {
+  .site-button {
     margin: 0px 0px 10px 10px;
     box-shadow: inset 0px 1px 0px 0px #ffffff;
     background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
@@ -112,12 +112,12 @@ a  {
     text-shadow: 0px 1px 0px #ffffff;
   }
   
-  .Site-button:hover {
+  .site-button:hover {
     background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
     background-color: #f6f6f6;
   }
   
-  .Site-button:active {
+  .site-button:active {
     position: relative;
     top: 1px;
   }
